@@ -1,7 +1,7 @@
 <?php 
-  //Operator Aritmatika
-  $x = 10;
-  $y = 20;
-    echo $x + $y;
+  $nama_depan = "Tauhid";
+  $nama_belakang = "Izzan";
+
+  echo $nama_depan . " " . $nama_belakang;
     
 ?>
