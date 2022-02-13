@@ -9,9 +9,10 @@
   </title>
 </head>
 <body>
-<h1>
-    Selamat datang <?php echo "Izzan"; ?>
-</h1>    
+
+<?php 
+    echo "<h1>Selamat Datang, Izzan</h1>";
+?>
 
 
 
