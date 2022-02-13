@@ -1,27 +1,43 @@
 <?php 
- $x = 10;
- $x += 20; 
-
- echo "$x  </br>";
  
- $y = 5;
- $y -= 2;
+ // operator perbandingan
+ var_dump(1 < 5) ;
+ echo "</br>"; 
 
- echo "$y </br>"; 
+ var_dump(1 > 5) ;
+ echo "</br>"; 
 
- $a = 10;
- $a /= 2;
+ var_dump(1 <= 5) ;
+ echo "</br>";
+ 
+ var_dump(1 >= 5) ;
+ echo "</br>";
+ 
+ var_dump(1 == 5) ;
+ echo "</br>"; 
 
- echo "$a </br>"; 
+ var_dump(1 != 5) ;
+ echo "</br>"; 
 
- $b = 5;
- $b %= 10;
+//operator identitas
+var_dump(1 === "1"); #dibaca apakah 1 bernilai sama dengan 1
+echo "</br>";
 
- echo "$b </br>";
+var_dump(1 !== "1");
+echo "</br>";
 
- $c = 25;
- $c .= 10;
+//operator logika
+$x = 10;
+var_dump($x < 20 && $x % 2 == 0);
+echo "</br>";
 
- echo $c;
+$x = 10;
+var_dump($x < 5 || $x % 2 == 1);
+
+
+
+
+
+
 
 ?>
